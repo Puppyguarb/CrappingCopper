@@ -1,4 +1,4 @@
 package puppyguard.crappingcopper;
 
-public class CrappingCopper {
+public class main {
 }

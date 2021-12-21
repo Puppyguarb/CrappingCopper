@@ -1,28 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "CrappingCopper",
+  "id": "crappingcopper",
   "version": "${version}",
   "name": "CrappingCopper",
-  "description": "",
-  "authors": [],
+  "description": "Adds a crap load of copper tools and armor to make copper less crappy.",
+  "authors": ["Puppyguard"],
   "contact": {},
-  "license": "MIT",
-  "icon": "assets/CrappingCopper/icon.png",
+  "license": "CC0-1.0",
+  "icon": "assets/crappingcopper/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "puppyguard.crappingcopper.client.CrappingCopperClient"
-    ],
     "main": [
-      "puppyguard.crappingcopper.CrappingCopper"
+      "puppyguard.crappingcopper.main"
     ]
   },
   "mixins": [
-    "CrappingCopper.mixins.json"
+    "crappingcopper.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.12.12",
+    "fabricloader": ">=0.11.3",
     "fabric": "*",
-    "minecraft": "1.18.1"
+    "minecraft": "1.18.x",
+    "java": ">=17"
   }
 }
