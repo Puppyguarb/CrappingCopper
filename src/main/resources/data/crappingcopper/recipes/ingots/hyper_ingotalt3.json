@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "crappingcopper:transcended_ingot"}
+  ],
+  "result": {
+    "item": "crappingcopper:hyper_ingot",
+    "count": 9
+  }
+}
+

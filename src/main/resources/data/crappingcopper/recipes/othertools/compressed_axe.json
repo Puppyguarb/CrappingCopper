@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC ",
+    "CS ",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "crappingcopper:compressed_ingot"
+    }
+  },
+  "result": {
+    "item": "crappingcopper:compressed_axe",
+    "count": 1
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    " S ",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "crappingcopper:copper_stack"
+    }
+  },
+  "result": {
+    "item": "crappingcopper:compressed_ingot",
+    "count": 1
+  }
+}
+

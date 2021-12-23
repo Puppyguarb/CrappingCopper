@@ -11,7 +11,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "puppyguard.crappingcopper.main"
+      "puppyguard.crappingcopper.Main"
     ]
   },
   "mixins": [

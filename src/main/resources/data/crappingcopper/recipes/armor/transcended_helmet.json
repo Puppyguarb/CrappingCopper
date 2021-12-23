@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "C C",
+    "   "
+  ],
+  "key": {
+    "C": {
+      "item": "crappingcopper:transcended_ingot"
+    }
+  },
+  "result": {
+    "item": "crappingcopper:transcended_helmet",
+    "count": 1
+  }
+}
+

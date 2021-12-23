@@ -1,5 +1,5 @@
-Copper hammer - A cheap hammer made with 3 copper blocks and 2 copper ingots in a pickaxe shape. Digs in a 3x3 radius. [30 copper total]
-	Slightly less speed than an iron pickaxe, but has the same durability. (9x since it mines 9 blocks at once)
+Copper hammer - A cheap hammer made with 1 copper blocks and 4 copper ingots in a pickaxe shape. Digs in a 3x3 radius. [13 copper total]
+	Slightly less speed than an iron pickaxe, but has the somewhat better durability. Considering that it mines 3x3, it won't last long.
 Compressed Copper hammer - A far more robust version with the same recipe but significantly increased durability and speed (equal to a diamond
  	pickaxe, but digs a 3x3, so 9x the durability) Still uses copper ingots for the handle. [101 copper total]
 Hyper Copper Hammer - An absurdly powerful hammer. As fast and durable as a netherite pickaxe, and digs a 5x5 instead. Uses previous tier for a handle [909 copper total]
@@ -11,7 +11,7 @@ Compressed Copper tools - Equal to diamond in power and strength, but have the e
 Hyper Dense Copper tools - Equal to netherite in power and strength, and are even more enchantable.
 Transcended Copper tools - Unbreakable tools with absurd power.
 
-Compressed Copper Armor - Equal to diamond in protectability, but have the enchantability of gold.
+Compressed Copper Armor - Equal to diamond in protection, but have the enchantability of gold.
 Hyper Dense Copper Armor - As good as netherite, minus any knockback immunity, fairly enchantable. Needs the previous tier for a handle.
 Transcended Copper Armor - Absolutely stupid protection and toughness. Needs the previous tier for a handle.
 

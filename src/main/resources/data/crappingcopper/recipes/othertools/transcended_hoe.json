@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "crappingcopper:transcended_ingot"
+    }
+  },
+  "result": {
+    "item": "crappingcopper:transcended_hoe",
+    "count": 1
+  }
+}
+

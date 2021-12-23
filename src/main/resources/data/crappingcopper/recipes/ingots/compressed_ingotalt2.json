@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "crappingcopper:compressed_stack"}
+  ],
+  "result": {
+    "item": "crappingcopper:compressed_ingot",
+    "count": 3
+  }
+}
+

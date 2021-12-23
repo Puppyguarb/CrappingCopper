@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    " S ",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "crappingcopper:hyper_ingot"
+    },
+    "S": {
+      "item": "crappingcopper:hyper_stack"
+    }
+  },
+  "result": {
+    "item": "crappingcopper:transcended_ingot",
+    "count": 1
+  }
+}
+

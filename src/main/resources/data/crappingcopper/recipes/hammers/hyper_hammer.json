@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CBC",
+    " H ",
+    " H "
+  ],
+  "key": {
+    "H": {
+      "item": "crappingcopper:compressed_ingot"
+    },
+    "B": {
+      "item": "crappingcopper:hyper_block"
+    },
+    "C": {
+      "item": "crappingcopper:hyper_ingot"
+    }
+  },
+  "result": {
+    "item": "crappingcopper:hyper_hammer",
+    "count": 1
+  }
+}
+

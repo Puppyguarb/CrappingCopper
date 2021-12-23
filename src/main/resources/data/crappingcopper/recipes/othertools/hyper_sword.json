@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    " C ",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "crappingcopper:hyper_ingot"
+    }
+  },
+  "result": {
+    "item": "crappingcopper:hyper_sword",
+    "count": 1
+  }
+}
+
