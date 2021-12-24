@@ -29,7 +29,7 @@ public class CompressedToolMaterial implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 4.0f;
+        return 2.0f;
     }
 
     @Override

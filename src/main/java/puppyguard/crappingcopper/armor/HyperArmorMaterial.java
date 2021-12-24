@@ -45,7 +45,7 @@ public class HyperArmorMaterial implements ArmorMaterial {
 
     @Override
     public float getToughness() {
-        return 2;
+        return 3;
     }
 
     @Override

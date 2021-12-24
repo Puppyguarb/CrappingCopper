@@ -20,29 +20,29 @@ public class ModItem {
     public static final ToolItem TRANSCENDED_HAMMER = new HammerItem(TranscendedToolMaterial.HAMMER_INSTANCE,1,-3.2f,new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC),3);
 
     //Swords
-    public static final ToolItem COMPRESSED_SWORD = new SwordItem(CompressedToolMaterial.INSTANCE,1,-2.4f, new FabricItemSettings().group(Main.ITEM_GROUP));
-    public static final ToolItem HYPER_SWORD = new SwordItem(HyperToolMaterial.INSTANCE,1,-2.4f, new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
-    public static final ToolItem TRANSCENDED_SWORD = new SwordItem(TranscendedToolMaterial.INSTANCE,1,-2.4f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
+    public static final ToolItem COMPRESSED_SWORD = new SwordItem(CompressedToolMaterial.INSTANCE,4,-2.4f, new FabricItemSettings().group(Main.ITEM_GROUP));
+    public static final ToolItem HYPER_SWORD = new SwordItem(HyperToolMaterial.INSTANCE,3,-2.4f, new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
+    public static final ToolItem TRANSCENDED_SWORD = new SwordItem(TranscendedToolMaterial.INSTANCE,3,-2.4f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
 
     //Axes
-    public static final ToolItem COMPRESSED_AXE = new CustomAxeItem(CompressedToolMaterial.INSTANCE,3,-3.2f, new FabricItemSettings().group(Main.ITEM_GROUP));
-    public static final ToolItem HYPER_AXE = new CustomAxeItem(HyperToolMaterial.INSTANCE,3,-3.2f, new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
-    public static final ToolItem TRANSCENDED_AXE = new CustomAxeItem(TranscendedToolMaterial.INSTANCE,3,-3.2f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
+    public static final ToolItem COMPRESSED_AXE = new CustomAxeItem(CompressedToolMaterial.INSTANCE,5,-3.2f, new FabricItemSettings().group(Main.ITEM_GROUP));
+    public static final ToolItem HYPER_AXE = new CustomAxeItem(HyperToolMaterial.INSTANCE,5,-3.2f, new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
+    public static final ToolItem TRANSCENDED_AXE = new CustomAxeItem(TranscendedToolMaterial.INSTANCE,5,-3.2f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
 
     //Hoes
-    public static final ToolItem COMPRESSED_HOE = new CustomHoeItem(CompressedToolMaterial.INSTANCE,1,0.3f, new FabricItemSettings().group(Main.ITEM_GROUP));
-    public static final ToolItem HYPER_HOE = new CustomHoeItem(HyperToolMaterial.INSTANCE,1,1f, new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
-    public static final ToolItem TRANSCENDED_HOE = new CustomHoeItem(TranscendedToolMaterial.INSTANCE,1,1f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
+    public static final ToolItem COMPRESSED_HOE = new CustomHoeItem(CompressedToolMaterial.INSTANCE,-2,0.3f, new FabricItemSettings().group(Main.ITEM_GROUP));
+    public static final ToolItem HYPER_HOE = new CustomHoeItem(HyperToolMaterial.INSTANCE,-6,1f, new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
+    public static final ToolItem TRANSCENDED_HOE = new CustomHoeItem(TranscendedToolMaterial.INSTANCE,-12,1f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
 
     //Shovels
-    public static final ToolItem COMPRESSED_SHOVEL = new ShovelItem(CompressedToolMaterial.INSTANCE,1,-2.6f, new FabricItemSettings().group(Main.ITEM_GROUP));
-    public static final ToolItem HYPER_SHOVEL = new ShovelItem(HyperToolMaterial.INSTANCE,1,-2.6f, new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
-    public static final ToolItem TRANSCENDED_SHOVEL = new ShovelItem(TranscendedToolMaterial.INSTANCE,1,-2.6f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
+    public static final ToolItem COMPRESSED_SHOVEL = new ShovelItem(CompressedToolMaterial.INSTANCE,-1,-2.6f, new FabricItemSettings().group(Main.ITEM_GROUP));
+    public static final ToolItem HYPER_SHOVEL = new ShovelItem(HyperToolMaterial.INSTANCE,-2,-2.6f, new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
+    public static final ToolItem TRANSCENDED_SHOVEL = new ShovelItem(TranscendedToolMaterial.INSTANCE,-7,-2.6f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
 
     //Pickaxes
     public static final ToolItem COMPRESSED_PICKAXE = new CustomPickaxeItem(CompressedToolMaterial.INSTANCE,1,-2.8f, new FabricItemSettings().group(Main.ITEM_GROUP));
-    public static final ToolItem HYPER_PICKAXE = new CustomPickaxeItem(HyperToolMaterial.INSTANCE,1,-2.8f, new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
-    public static final ToolItem TRANSCENDED_PICKAXE = new CustomPickaxeItem(TranscendedToolMaterial.INSTANCE,1,-2.8f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
+    public static final ToolItem HYPER_PICKAXE = new CustomPickaxeItem(HyperToolMaterial.INSTANCE,-1,-2.8f, new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
+    public static final ToolItem TRANSCENDED_PICKAXE = new CustomPickaxeItem(TranscendedToolMaterial.INSTANCE,-7,-2.8f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
 
     //Ingots
     public static final Item COMPRESSED_INGOT = new Item(new FabricItemSettings().group(Main.ITEM_GROUP));

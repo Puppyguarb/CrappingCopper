@@ -46,7 +46,7 @@ public class TranscendedArmorMaterial implements ArmorMaterial {
 
     @Override
     public float getToughness() {
-        return 3;
+        return 5;
     }
 
     @Override
