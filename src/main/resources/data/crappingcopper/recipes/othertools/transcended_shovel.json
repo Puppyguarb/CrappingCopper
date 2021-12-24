@@ -10,11 +10,11 @@
       "item": "minecraft:stick"
     },
     "C": {
-      "item": "crappingcopper:compressed_ingot"
+      "item": "crappingcopper:transcended_ingot"
     }
   },
   "result": {
-    "item": "crappingcopper:compressed_shovel",
+    "item": "crappingcopper:transcended_shovel",
     "count": 1
   }
 }

@@ -25,9 +25,9 @@ public class ModItem {
     public static final ToolItem TRANSCENDED_SWORD = new SwordItem(TranscendedToolMaterial.INSTANCE,1,-2.4f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
 
     //Axes
-    public static final ToolItem COMPRESSED_AXE = new CustomAxeItem(CompressedToolMaterial.INSTANCE,1,-3.2f, new FabricItemSettings().group(Main.ITEM_GROUP));
-    public static final ToolItem HYPER_AXE = new CustomAxeItem(HyperToolMaterial.INSTANCE,1,-3.2f, new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
-    public static final ToolItem TRANSCENDED_AXE = new CustomAxeItem(TranscendedToolMaterial.INSTANCE,1,-3.2f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
+    public static final ToolItem COMPRESSED_AXE = new CustomAxeItem(CompressedToolMaterial.INSTANCE,3,-3.2f, new FabricItemSettings().group(Main.ITEM_GROUP));
+    public static final ToolItem HYPER_AXE = new CustomAxeItem(HyperToolMaterial.INSTANCE,3,-3.2f, new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
+    public static final ToolItem TRANSCENDED_AXE = new CustomAxeItem(TranscendedToolMaterial.INSTANCE,3,-3.2f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
 
     //Hoes
     public static final ToolItem COMPRESSED_HOE = new CustomHoeItem(CompressedToolMaterial.INSTANCE,1,0.3f, new FabricItemSettings().group(Main.ITEM_GROUP));
@@ -54,49 +54,61 @@ public class ModItem {
     public static final Item COMPRESSED_STACK = new Item(new FabricItemSettings().group(Main.ITEM_GROUP));
     public static final Item HYPER_STACK = new Item(new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
 
+    //Misc
+    public static final Item COPPER_FEATHER = new Item(new FabricItemSettings().group(Main.ITEM_GROUP));
+
     public static void register() {
-        //Tools
 
-        //Swords
-        Registry.register(Registry.ITEM, Main.identifier("compressed_sword"), COMPRESSED_SWORD);
-        Registry.register(Registry.ITEM, Main.identifier("hyper_sword"), HYPER_SWORD);
-        Registry.register(Registry.ITEM, Main.identifier("transcended_sword"), TRANSCENDED_SWORD);
+        //Misc
+        if (Main.SETTINGS.enableCopperFeather) Registry.register(Registry.ITEM, Main.identifier("copper_feather"), COPPER_FEATHER);
+        if (Main.SETTINGS.enableCopperHammer) Registry.register(Registry.ITEM, Main.identifier("copper_hammer"), COPPER_HAMMER);
 
-        //Axes
-        Registry.register(Registry.ITEM, Main.identifier("compressed_axe"), COMPRESSED_AXE);
-        Registry.register(Registry.ITEM, Main.identifier("hyper_axe"), HYPER_AXE);
-        Registry.register(Registry.ITEM, Main.identifier("transcended_axe"), TRANSCENDED_AXE);
+        if (Main.SETTINGS.enableCompressedCopper) {
+            //Compressed Items
+            Registry.register(Registry.ITEM, Main.identifier("compressed_ingot"), COMPRESSED_INGOT);
+            Registry.register(Registry.ITEM, Main.identifier("compressed_stack"), COMPRESSED_STACK);
+            Registry.register(Registry.ITEM, Main.identifier("copper_stack"), COPPER_STACK);
 
-        //Hoes
-        Registry.register(Registry.ITEM, Main.identifier("compressed_hoe"), COMPRESSED_HOE);
-        Registry.register(Registry.ITEM, Main.identifier("hyper_hoe"), HYPER_HOE);
-        Registry.register(Registry.ITEM, Main.identifier("transcended_hoe"), TRANSCENDED_HOE);
+            if (Main.SETTINGS.enableCompressedCopperTools) {
+                Registry.register(Registry.ITEM, Main.identifier("compressed_sword"), COMPRESSED_SWORD);
+                Registry.register(Registry.ITEM, Main.identifier("compressed_axe"), COMPRESSED_AXE);
+                Registry.register(Registry.ITEM, Main.identifier("compressed_hoe"), COMPRESSED_HOE);
+                Registry.register(Registry.ITEM, Main.identifier("compressed_shovel"), COMPRESSED_SHOVEL);
+                Registry.register(Registry.ITEM, Main.identifier("compressed_pickaxe"), COMPRESSED_PICKAXE);
+            }
 
-        //Shovels
-        Registry.register(Registry.ITEM, Main.identifier("compressed_shovel"), COMPRESSED_SHOVEL);
-        Registry.register(Registry.ITEM, Main.identifier("hyper_shovel"), HYPER_SHOVEL);
-        Registry.register(Registry.ITEM, Main.identifier("transcended_shovel"), TRANSCENDED_SHOVEL);
+            if (Main.SETTINGS.enableCompressedCopperHammer) Registry.register(Registry.ITEM, Main.identifier("compressed_hammer"), COMPRESSED_HAMMER);
 
-        //Pickaxes
-        Registry.register(Registry.ITEM, Main.identifier("compressed_pickaxe"), COMPRESSED_PICKAXE);
-        Registry.register(Registry.ITEM, Main.identifier("hyper_pickaxe"), HYPER_PICKAXE);
-        Registry.register(Registry.ITEM, Main.identifier("transcended_pickaxe"), TRANSCENDED_PICKAXE);
+            if (Main.SETTINGS.enableHyperDenseCopper) {
+                //Hyper Items
+                Registry.register(Registry.ITEM, Main.identifier("hyper_ingot"), HYPER_INGOT);
+                Registry.register(Registry.ITEM, Main.identifier("hyper_stack"), HYPER_STACK);
 
-        //Hammers
-        Registry.register(Registry.ITEM, Main.identifier("copper_hammer"), COPPER_HAMMER);
-        Registry.register(Registry.ITEM, Main.identifier("compressed_hammer"), COMPRESSED_HAMMER);
-        Registry.register(Registry.ITEM, Main.identifier("hyper_hammer"), HYPER_HAMMER);
-        Registry.register(Registry.ITEM, Main.identifier("transcended_hammer"), TRANSCENDED_HAMMER);
+                if (Main.SETTINGS.enableHyperDenseCopperTools) {
+                    Registry.register(Registry.ITEM, Main.identifier("hyper_sword"), HYPER_SWORD);
+                    Registry.register(Registry.ITEM, Main.identifier("hyper_axe"), HYPER_AXE);
+                    Registry.register(Registry.ITEM, Main.identifier("hyper_hoe"), HYPER_HOE);
+                    Registry.register(Registry.ITEM, Main.identifier("hyper_shovel"), HYPER_SHOVEL);
+                    Registry.register(Registry.ITEM, Main.identifier("hyper_pickaxe"), HYPER_PICKAXE);
+                }
 
-        //Ingots
-        Registry.register(Registry.ITEM, Main.identifier("compressed_ingot"), COMPRESSED_INGOT);
-        Registry.register(Registry.ITEM, Main.identifier("hyper_ingot"), HYPER_INGOT);
-        Registry.register(Registry.ITEM, Main.identifier("transcended_ingot"), TRANSCENDED_INGOT);
+                if (Main.SETTINGS.enableHyperDenseCopperHammer) Registry.register(Registry.ITEM, Main.identifier("hyper_hammer"), HYPER_HAMMER);
 
-        //Copprification stacks (basically just items that exist since the regular 3x3 recipe makes a block)
-        Registry.register(Registry.ITEM, Main.identifier("copper_stack"), COPPER_STACK);
-        Registry.register(Registry.ITEM, Main.identifier("compressed_stack"), COMPRESSED_STACK);
-        Registry.register(Registry.ITEM, Main.identifier("hyper_stack"), HYPER_STACK);
+                if (Main.SETTINGS.enableTranscendedCopper) {
+                    //Transcended Items
+                    Registry.register(Registry.ITEM, Main.identifier("transcended_ingot"), TRANSCENDED_INGOT);
 
+                    if (Main.SETTINGS.enableTranscendedCopperTools) {
+                        Registry.register(Registry.ITEM, Main.identifier("transcended_sword"), TRANSCENDED_SWORD);
+                        Registry.register(Registry.ITEM, Main.identifier("transcended_axe"), TRANSCENDED_AXE);
+                        Registry.register(Registry.ITEM, Main.identifier("transcended_hoe"), TRANSCENDED_HOE);
+                        Registry.register(Registry.ITEM, Main.identifier("transcended_shovel"), TRANSCENDED_SHOVEL);
+                        Registry.register(Registry.ITEM, Main.identifier("transcended_pickaxe"), TRANSCENDED_PICKAXE);
+                    }
+
+                    if (Main.SETTINGS.enableTranscendedCopperHammer) Registry.register(Registry.ITEM, Main.identifier("transcended_hammer"), TRANSCENDED_HAMMER);
+                }
+            }
+        }
     }
 }

@@ -20,7 +20,7 @@ public class TranscendedToolMaterial implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 6.0f;
+        return 15.0f;
     }
 
     @Override

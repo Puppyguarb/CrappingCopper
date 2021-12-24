@@ -29,7 +29,7 @@ public class HyperToolMaterial implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 5.0f;
+        return 8.0f;
     }
 
     @Override

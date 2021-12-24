@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_rh",
+  "textures": {
+    "top": "crappingcopper:block/crescent_door_top",
+    "bottom": "crappingcopper:block/crescent_door_bottom"
+  }
+}

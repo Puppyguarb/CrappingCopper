@@ -6,9 +6,9 @@
   "item.crappingcopper.compressed_ingot" : "Compressed Copper Ingot",
   "item.crappingcopper.hyper_ingot" : "Hyper Dense Copper Ingot",
   "item.crappingcopper.transcended_ingot" : "Transcended Copper Ingot",
-  "item.crappingcopper.copper_stack" : "Copprification Stack",
-  "item.crappingcopper.compressed_stack" : "Compressed Copprification Stack",
-  "item.crappingcopper.hyper_stack" : "Hyper Dense Copprification Stack",
+  "item.crappingcopper.copper_stack" : "Copper Stack",
+  "item.crappingcopper.compressed_stack" : "Compressed Copper Stack",
+  "item.crappingcopper.hyper_stack" : "Hyper Dense Copper Stack",
   "item.crappingcopper.compressed_helmet" : "Compressed Copper Helmet",
   "item.crappingcopper.compressed_chestplate" : "Compressed Copper Chestplate",
   "item.crappingcopper.compressed_leggings" : "Compressed Copper Leggings",
@@ -39,5 +39,7 @@
   "block.crappingcopper.compressed_block" : "Compressed Copper Block",
   "block.crappingcopper.hyper_block" : "Hyper Dense Copper Block",
   "block.crappingcopper.transcended_block" : "Transcended Copper Block",
+  "block.crappingcopper.crescent_door" : "Copper Crescent Door",
+  "item.crappingcopper.copper_feather": "Copper Feather",
   "itemGroup.crappingcopper.creative_tab" : "Crapping Copper"
 }

@@ -12,6 +12,9 @@
   "entrypoints": {
     "main": [
       "puppyguard.crappingcopper.Main"
+    ],
+    "client": [
+      "puppyguard.crappingcopper.ClientMain"
     ]
   },
   "mixins": [

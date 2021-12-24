@@ -29,6 +29,11 @@ dependencies {
         exclude group: "com.jamieswhiteshirt"
         exclude group: "me.shedaniel.cloth"
     }
+
+    // Cloth Config
+    modApi("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_version}") {
+        exclude(group: "net.fabricmc.fabric-api")
+    }
 }
 
 processResources {
