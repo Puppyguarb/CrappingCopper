@@ -30,7 +30,7 @@ public class ModItem {
     public static final ToolItem TRANSCENDED_AXE = new CustomAxeItem(TranscendedToolMaterial.INSTANCE,5,-3.2f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
 
     //Hoes
-    public static final ToolItem COMPRESSED_HOE = new CustomHoeItem(CompressedToolMaterial.INSTANCE,-2,0.3f, new FabricItemSettings().group(Main.ITEM_GROUP));
+    public static final ToolItem COMPRESSED_HOE = new CustomHoeItem(CompressedToolMaterial.INSTANCE,-1,0.3f, new FabricItemSettings().group(Main.ITEM_GROUP));
     public static final ToolItem HYPER_HOE = new CustomHoeItem(HyperToolMaterial.INSTANCE,-6,1f, new FabricItemSettings().group(Main.ITEM_GROUP).rarity(Rarity.RARE));
     public static final ToolItem TRANSCENDED_HOE = new CustomHoeItem(TranscendedToolMaterial.INSTANCE,-12,1f, new FabricItemSettings().group(Main.ITEM_GROUP).maxDamage(-1).rarity(Rarity.EPIC));
 
